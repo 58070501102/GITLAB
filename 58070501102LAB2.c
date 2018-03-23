@@ -3,7 +3,7 @@
 #include<string.h>
 #include<conio.h>
 #include<stdlib.h>
-float xmin=0,xmax=0,ymin=0,ymax=0;
+float xmin=1,xmax=0,ymin=0,ymax=0;
 int check_point(int fun,float a1,float a2,float b1,float b2)
 //This function does it 4 times(xmin,xmax,ymin,ymax)
 //Function check 2 points to case in-in,in-out,out-in or out-out
