@@ -15,7 +15,7 @@
 }*/
 int checkbit(char x[],char y[]) //the function check Bit1 And Bit2
 {
-	char test1[100],test2[100];
+	char test1[200],test2[200];
 	int j,k;
 	for(j=0,k=0;k<strlen(x);k++,j++)
 	{
@@ -35,7 +35,7 @@ int main()
 	float X1=0,X2=0,Y1=0,Y2=0; //Variable of Two End Point
 	float ymin=0,ymax=0,xmin=0,xmax=0; //Variable of Window
 	char Select[3]; //For loop of program
-	char Bit1[100],Bit2[100],SumBit[100]="";
+	char Bit1[200],Bit2[200],SumBit[200]="";
 	int count1,count2,i=0,j=0,k=0;
 	char test1[100],test2[100];
 do	{	
